@@ -55,7 +55,7 @@ const Category = () => {
               className={`w-[130px] md:w-[150px] h-[170px] rounded-xl ${colors[i % colors.length]} flex flex-col items-center justify-center cursor-pointer hover:scale-105 transition-all duration-300 shadow-sm`}
             >
               <img
-                src={`https://ecommerce-frontend-6ghu.onrender.com/uploads/${category.image}`}
+                src={`https://ecommerce-backend-6iq5.onrender.com/uploads/${category.image}`}
                 alt={category.name}
                 className="w-24 h-24 object-contain mb-2"
               />

@@ -68,7 +68,7 @@ const Checkout = () => {
               >
                 <div className="flex items-center gap-4">
                   <img
-                    src={`https://ecommerce-frontend-6ghu.onrender.com/uploads/${item.images[0]}`}
+                    src={`https://ecommerce-backend-6iq5.onrender.com/uploads/${item.images[0]}`}
                     alt=""
                     className="w-20 h-20"
                   />
