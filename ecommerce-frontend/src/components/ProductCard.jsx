@@ -12,7 +12,7 @@ const ProductCard = ({ product }) => {
       <Link to={`/product/${product._id}`} className="cursor-pointer">
         <div className="flex items-center justify-center h-[200px]">
           <img
-            src={`http://localhost:4000/uploads/${product.images[0]}`}
+            src={`https://ecommerce-frontend-6ghu.onrender.com/uploads/${product.images[0]}`}
             alt={product.name || "Product Image"}
             className="max-h-full object-contain"
           />
